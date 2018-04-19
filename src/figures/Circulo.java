@@ -15,4 +15,12 @@ public class Circulo {
 	public void setRadi(int radi) {
 		this.radi = radi;
 	}
+	
+	public double calculPerimetre() {
+		return this.radi*2*Math.PI;
+	}
+	
+	public double calculArea() {
+		return Math.pow(this.radi,2)*Math.PI;
+	}
 }
